@@ -5,6 +5,7 @@
     font: Roboto;
 }
 
+
 .nav-bar{
     background-color: #1F2937;
     display: flex;
@@ -13,18 +14,74 @@
     height: 50px;
 }
 
-ul li{
-    list-style: none;
-}
-
 .logo-text {
     color: #F9FAf8;
     font-size: 24px;
     font-weight: 900;
 }
-
 .nav-bar ul{
     color:#E5E7EB;
     display: flex;
     gap: 25px;
 }
+
+ul li{
+    list-style: none;
+    font-size: 18px;
+}
+
+/* Next section */
+
+.hero-section{
+    display: flex;
+    background-color: #1F2937;
+    color:#E5E7EB;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    gap: 75px;    
+    padding: 30px 50px;
+}
+
+.hero-section div{
+    max-width: 500px;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+.hero-left{
+    flex-shrink: 1.60;
+
+}
+
+
+.image-holder{
+    color: white;
+    width: 500px;
+    height: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 1;
+}
+
+
+.hero-left button{
+    border: none;
+    background-color: #3882f6;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+h1.hero-maintext{
+    color: #F9FAf8;
+    font-weight: 900;
+    font-size: 48px;
+    margin-bottom: 5px;
+}
+
