@@ -5,6 +5,10 @@
     font: Roboto;
 }
 
+.pfont-increase{
+    font-size: 18px;
+}
+
 
 .nav-bar{
     background-color: #1F2937;
@@ -16,7 +20,7 @@
 
 .logo-text {
     color: #F9FAf8;
-    font-size: 24px;
+    font-size: 28px;
     font-weight: 900;
 }
 .nav-bar ul{
@@ -25,9 +29,9 @@
     gap: 25px;
 }
 
-ul li{
+.header-li li{
     list-style: none;
-    font-size: 18px;
+    font-size: 22px;
 }
 
 /* Next section */
@@ -42,7 +46,7 @@ ul li{
     gap: 75px;    
     padding: 30px 50px;
 }
-
+s
 .hero-section div{
     max-width: 500px;
 }
@@ -54,9 +58,8 @@ img{
 
 .hero-left{
     flex-shrink: 1.60;
-
+    max-width: 550px;
 }
-
 
 .image-holder{
     color: white;
@@ -67,7 +70,6 @@ img{
     justify-content: center;
     flex-shrink: 1;
 }
-
 
 .hero-left button{
     border: none;
@@ -83,5 +85,52 @@ h1.hero-maintext{
     font-weight: 900;
     font-size: 48px;
     margin-bottom: 5px;
+}
+
+/* another section */
+
+.content{
+    background-color: white;
+}
+
+.image-list{
+    display: flex;
+    gap: 70px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.content-img-container{
+    border: solid 3px #3882f6; 
+    border-radius: 20px;
+    height: 200px;
+    width: 200px; 
+    flex-shrink: 0;
+    
+}
+
+.content-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 10px 10px 10px;
+}
+
+
+.img-subtxt{
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    height: 315px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.content-top h2{
+    font-size: 34px;
+    font-weight: 900;
+    margin: 15px 0px;
 }
 
