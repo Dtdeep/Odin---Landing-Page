@@ -204,3 +204,8 @@ h1.hero-maintext{
     color: #F9FAf8;
     height: 100px;
 }
+
+.cropped{
+    object-fit: cover;
+    border-radius:17px;
+}
